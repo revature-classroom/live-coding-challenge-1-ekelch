@@ -23,7 +23,7 @@ public class WeatherMachine {
 	
 	private int[] getPastTemperatures() {
 		for (int i = 0; i < pastTemperatureCount; i++) {
-			pastTemperatures[i] = thermometer.genSeed();
+			pastTemperatures[i] = thermometer.genValue();
 		}
 		return pastTemperatures;
 	}
