@@ -17,7 +17,7 @@ public class WeatherMachine {
 	public void getWeatherReport() {
 		int[] pastTemps = getPastTemperatures();
 		for (int i = 0; i < pastTemps.length; i++) {
-			System.out.println(displayTime(i) + " - " + pastTemps[i]);
+			System.out.println(displayTime(i) + " - " + pastTemps[i] + " degrees");
 		}
 	}
 	
